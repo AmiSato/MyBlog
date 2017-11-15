@@ -18,8 +18,14 @@
 
   <div class="field">
     <%= form.label :message %>
-    <%= form.text_field :message, id: :message_message %>
+    <%= form.text_area :message, id: :message_message %>
   </div>
+  
+  <div class="name">
+    <%= form.label :name %>
+    <%= form.text_field :name, id: :message_name %>
+  </div>
+  
 
   <div class="actions">
     <%= form.submit %>
